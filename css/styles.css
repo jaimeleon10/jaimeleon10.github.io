@@ -1,0 +1,25 @@
+.text {
+    font-family: "Arima", serif;
+}
+
+.custom-bg {
+    background-color: rgb(172, 230, 255);
+}
+
+.custom-container {
+    border-bottom: 2px solid black;
+}
+
+.fila {
+    margin-top: 2em;
+    font-family: "Arima", serif;
+}
+
+.fila p {
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.fila a {
+    color:rgb(0, 105, 210);
+}
