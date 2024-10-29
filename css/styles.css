@@ -17,9 +17,38 @@
 
 .fila p {
     font-size: larger;
+    font-weight: bold;
     text-decoration: underline;
 }
 
 .fila a {
     color:rgb(0, 105, 210);
+}
+
+.custom-container-banner {
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+.custom-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-container3 {
+    margin-top: 4em;
+}
+
+.custom-container3 h3 {
+    font-family: "Arima", serif;
+}
+
+.custom-container4 {
+    margin-top: 4em;
+}
+
+.custom-container4 h3 {
+    font-family: "Arima", serif;
 }
