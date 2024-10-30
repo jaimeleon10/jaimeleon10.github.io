@@ -1,13 +1,27 @@
 .text {
     font-family: "Arima", serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+}
+
+.logo-img {
+    border: 3px solid white;
+    border-radius: 100%;
+    margin-bottom: 1em;
+}
+
+#gifLinea {
+    width: 70em;
+    height: 12em;
+}
+
+.linea {
+    text-align: center;
+    margin: -4.5em;
 }
 
 .custom-bg {
-    background-color: rgb(172, 230, 255);
-}
-
-.custom-container {
-    border-bottom: 2px solid black;
+    background-color: rgb(16, 0, 18);
 }
 
 .fila {
@@ -19,10 +33,16 @@
     font-size: larger;
     font-weight: bold;
     text-decoration: underline;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 94, 255);
 }
 
 .fila a {
-    color:rgb(0, 105, 210);
+    color:rgb(0, 128, 255);
+}
+
+.fila li::marker {
+    color: rgb(255, 255, 255);
 }
 
 .custom-container-banner {
@@ -35,6 +55,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
 }
 
 .custom-container3 {
@@ -43,6 +64,8 @@
 
 .custom-container3 h3 {
     font-family: "Arima", serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 94, 255);
 }
 
 .custom-container4 {
@@ -51,4 +74,39 @@
 
 .custom-container4 h3 {
     font-family: "Arima", serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 1em;
+    font-family: "Arima", serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+}
+
+@media (max-width: 500px) {
+    #titulo {
+        font-size: 1.3em;
+    }
+
+    .iconos-contacto a img {
+        width: 8%;
+    }
+
+    .iconos-tecnologias img {
+        width: 8%;
+    }
+}
+
+.iconos-contacto a img{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 25%;
+    margin: 0.3em;
+}
+
+.iconos-contacto a img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
