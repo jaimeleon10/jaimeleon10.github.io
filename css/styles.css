@@ -90,13 +90,12 @@ body {
 }
 
 .iconos-contacto-cuadrado{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     margin: 0.3em;
 }
 
 .iconos-contacto-cuadrado:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.434);
 }
 
 .iconos-contacto-redondo{
@@ -105,23 +104,21 @@ body {
 }
 
 .iconos-contacto-redondo{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
     margin: 0.3em;
 }
 
 .iconos-contacto-redondo:hover {
     transform: scale(1.2);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.434);
 }
 
 .banner-img {
     border-radius: 2em;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .banner-img:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.434);
 }
 
 @media (max-width: 992px) {
@@ -190,12 +187,11 @@ body {
 .btn-responsive img {
     border: 2px solid white;
     border-radius: 100%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .btn-responsive img:hover {
     transform: scale(1.3);
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.434);
 }
 
 /* Pantalla pequeña */

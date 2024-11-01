@@ -152,67 +152,13 @@
                 }
                 // Negrita titulo proyectos
                 document.getElementById("tit-proyectos").style.fontWeight = "normal";
-                // Sombra titulo perfil
-                document.getElementById("tit-perfil").style.textShadow = "1px 1px 2px rgb(59, 131, 255)";
-                // Sombra resto proyectos
-                document.getElementById("tit-proyectos").style.textShadow = "1px 1px 2px rgb(59, 131, 255)";
-                // Sombra resto de titulos
-                var titulos = document.getElementsByClassName("titulo");
-                for (var i = 0; i < titulos.length; i++) {
-                    titulos[i].style.textShadow = "0 0 2px rgb(59, 131, 255)";
-                }
                 // Color descripciones
                 var description = document.getElementsByClassName("description");
                 for (var i = 0; i < description.length; i++) {
                     description[i].style.color = "rgb(16, 0, 18)";
                 }
-                // Sombra icono dia y noche
-                const icono = document.getElementById("iconoDiaNoche");
-                icono.addEventListener("mouseover", function() {
-                    icono.style.boxShadow = "0 0 20px rgba(0, 0, 0, 0.75)";
-                });
-                icono.addEventListener("mouseout", function() {
-                    icono.style.boxShadow = "0 0 0";
-                });
                 // Borde icono dia y noche
-                icono.style.borderColor = "rgb(16, 0, 18)";
-                // Sombra iconos contacto
-                const iconoGithub = document.getElementById("iconoGithub");
-                iconoGithub.addEventListener("mouseover", function() {
-                    iconoGithub.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.75)";
-                });
-                iconoGithub.addEventListener("mouseout", function() {
-                    iconoGithub.style.boxShadow = "0 0 0";
-                });
-                const iconoEmail = document.getElementById("iconoEmail");
-                iconoEmail.addEventListener("mouseover", function() {
-                    iconoEmail.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.75)";
-                });
-                iconoEmail.addEventListener("mouseout", function() {
-                    iconoEmail.style.boxShadow = "0 0 0";
-                });
-                const iconoLinkedin = document.getElementById("iconoLinkedin");
-                iconoLinkedin.addEventListener("mouseover", function() {
-                    iconoLinkedin.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.75)";
-                });
-                iconoLinkedin.addEventListener("mouseout", function() {
-                    iconoLinkedin.style.boxShadow = "0 0 0";
-                });
-                const iconoInstagram = document.getElementById("iconoInstagram");
-                iconoInstagram.addEventListener("mouseover", function() {
-                    iconoInstagram.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.75)";
-                });
-                iconoInstagram.addEventListener("mouseout", function() {
-                    iconoInstagram.style.boxShadow = "0 0 0";
-                });
-                // Sombra banner
-                const banner = document.getElementById("banner");
-                banner.addEventListener("mouseover", function() {
-                    banner.style.boxShadow = "0 0 30px rgba(0, 0, 0, 0.75)";
-                });
-                banner.addEventListener("mouseout", function() {
-                    banner.style.boxShadow = "0 0 0";
-                });
+                document.getElementById("iconoDiaNoche").style.borderColor = "rgb(16, 0, 18)";
             
             } else {
                 // Cambiar a modo oscuro
@@ -232,67 +178,14 @@
                 }
                 // Negrita titulo proyectos
                 document.getElementById("tit-proyectos").style.fontWeight = "bold";
-                // Sombra titulo perfil
-                document.getElementById("tit-perfil").style.textShadow = "0 0 2px rgb(0, 94, 255)";
-                // Sombra titulo proyectos
-                document.getElementById("tit-proyectos").style.textShadow = "0 0 2px rgb(0, 94, 255)";
-                // Sombra resto de titulos
-                var titulos = document.getElementsByClassName("titulo");
-                for (var i = 0; i < titulos.length; i++) {
-                    titulos[i].style.textShadow = "0 0 2px rgb(0, 94, 255)";
-                }
                 // Color descripciones
                 var description = document.getElementsByClassName("description");
                 for (var i = 0; i < description.length; i++) {
                     description[i].style.color = "rgb(222, 230, 254)";
                 }
-                // Sombra icono dia y noche
-                const icono = document.getElementById("iconoDiaNoche");
-                icono.addEventListener("mouseover", function() {
-                    icono.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                icono.addEventListener("mouseout", function() {
-                    icono.style.boxShadow = "0 0 0";
-                });
                 // Borde icono dia y noche
-                icono.style.borderColor = "rgb(222, 230, 254)";
-                // Sombra iconos contacto
-                const iconoGithub = document.getElementById("iconoGithub");
-                iconoGithub.addEventListener("mouseover", function() {
-                    iconoGithub.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                iconoGithub.addEventListener("mouseout", function() {
-                    iconoGithub.style.boxShadow = "0 0 0";
-                });
-                const iconoEmail = document.getElementById("iconoEmail");
-                iconoEmail.addEventListener("mouseover", function() {
-                    iconoEmail.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                iconoEmail.addEventListener("mouseout", function() {
-                    iconoEmail.style.boxShadow = "0 0 0";
-                });
-                const iconoLinkedin = document.getElementById("iconoLinkedin");
-                iconoLinkedin.addEventListener("mouseover", function() {
-                    iconoLinkedin.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                iconoLinkedin.addEventListener("mouseout", function() {
-                    iconoLinkedin.style.boxShadow = "0 0 0";
-                });
-                const iconoInstagram = document.getElementById("iconoInstagram");
-                iconoInstagram.addEventListener("mouseover", function() {
-                    iconoInstagram.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                iconoInstagram.addEventListener("mouseout", function() {
-                    iconoInstagram.style.boxShadow = "0 0 0";
-                });
-                // Sombra banner
-                const banner = document.getElementById("banner");
-                banner.addEventListener("mouseover", function() {
-                    banner.style.boxShadow = "0 0 20px rgba(255, 255, 255, 0.434)";
-                });
-                banner.addEventListener("mouseout", function() {
-                    banner.style.boxShadow = "0 0 0";
-                });
+                document.getElementById("iconoDiaNoche").style.borderColor = "rgb(222, 230, 254)";
+                
             }
         }
     </script>
