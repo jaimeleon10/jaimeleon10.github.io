@@ -13,7 +13,7 @@ body {
 .tit-perfil {
     font-family: "Arima", serif;
     color: white;
-    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+    text-shadow: 1px 1px 4px rgb(63, 134, 255);
     transition: color 0.5s ease;
 }
 
@@ -27,7 +27,7 @@ body {
     margin-top: 0.7em;
     font-family: "Arima", serif;
     color: white;
-    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+    text-shadow: 1px 1px 4px rgb(63, 134, 255);
     transition: color 0.5s ease;
 }
 
@@ -47,7 +47,7 @@ body {
     font-size: larger;
     font-weight: bold;
     color: white;
-    text-shadow: 2px 2px 4px rgb(0, 94, 255);
+    text-shadow: 1px 1px 4px rgb(63, 134, 255);
     margin-bottom: 1em;
     transition: color 0.5s ease;
 }
@@ -63,7 +63,7 @@ body {
 
 .fila a:hover {
     background-color: #1038d6;
-    box-shadow: 0 0 15px rgb(0, 94, 255);
+    box-shadow: 0 0 15px rgb(63, 134, 255);
 }
 
 .fila li::marker {
