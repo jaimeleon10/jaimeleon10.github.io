@@ -11,8 +11,14 @@
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<body class="dark">
-    <div class="container">
+<body class="dark hidden">
+
+    <div class="loading" id="onload">
+        <h1>Jaime León Mulero</h1>
+        <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+
+    <div class="container" hidden>
         <button class="btn btn-responsive" onclick="toggleDarkMode()">
             <img src="images/diaNoche.png" id="iconoDiaNoche" width="100%">
         </button>
@@ -136,7 +142,7 @@
                                 </li>
                             </ul>
                         </p>
-                        <a href="https://jaimeleon10.github.io/Tutorial-Apache-Web">Tutorial Apache Web</a>
+                        <a href="https://github.com/jaimeleon10/Tutorial-Apache-Web">Tutorial Apache Web</a>
                     </div>
                 </div>
 
@@ -161,7 +167,7 @@
                                 </li>
                             </ul>
                         </p>
-                        <a href="https://jaimeleon10.github.io/Tutorial-Nginx-Web">Tutorial Nginx Web</a>
+                        <a href="https://github.com/jaimeleon10/Tutorial-Nginx-Web">Tutorial Nginx Web</a>
                     </div>
                 </div>
 
@@ -189,7 +195,7 @@
                                 </li>
                             </ul>
                         </p>
-                        <a href="https://jaimeleon10.github.io/Tutorial-Nginx-Web">Tutorial Proxy Inverso Nginx</a>
+                        <a href="https://github.com/jaimeleon10/Tutorial-Nginx-Web">Tutorial Proxy Inverso Nginx</a>
                     </div>
                 </div>
 
@@ -216,7 +222,7 @@
                                 </li>
                             </ul>
                         </p>
-                        <a href="https://jaimeleon10.github.io/Despliegue-Avanzado">Despliegue Avanzado</a>
+                        <a href="https://github.com/jaimeleon10/Despliegue-Avanzado">Despliegue Avanzado</a>
                     </div>
                 </div>
             </div>
@@ -288,5 +294,7 @@
             document.body.classList.toggle("light");
         }
     </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="js/loader.js"></script>
 </body>
 </html>
