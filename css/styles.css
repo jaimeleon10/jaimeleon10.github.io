@@ -513,3 +513,17 @@ body.dark .tarjeta {
     transform: rotate(360deg);
   }
 }
+
+/* Estilos de la scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(45, 0, 51);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 255, 170);
+}
