@@ -527,3 +527,7 @@ body.dark .tarjeta {
 ::-webkit-scrollbar-thumb {
     background: rgb(0, 255, 170);
 }
+
+.oculto {
+    display: none;
+}
